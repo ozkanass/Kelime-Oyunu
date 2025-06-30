@@ -1,0 +1,15 @@
+<!-- res/drawable/button_rounded.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="#ADD8E6" /> <!-- Tıklanınca daha koyu mor -->
+            <corners android:radius="24dp" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <solid android:color="#ADD8E6" /> <!-- Normal mor tonu -->
+            <corners android:radius="24dp" />
+        </shape>
+    </item>
+</selector>
